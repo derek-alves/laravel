@@ -11,10 +11,13 @@ use App\User;
 class AuthController extends Controller
 {
     public function showLoginForm(){
+        if(Auth::check()===true){
+            return redirect()->route('admin.home');
+        }
         return view('admin.index');
     }
 
-    public function showDeash(){
+    public function home(){
         return view('admin.dashboard');
     }
     
@@ -40,6 +43,12 @@ class AuthController extends Controller
         }
 
         $json['redirect'] = route('admin.home');
-        var_dump($request->all());
+
+        return response()->json($json);
+    }
+
+    public function logout(){
+        Auth::logout();
+        return redirect()->route('admin.login');
     }
 }

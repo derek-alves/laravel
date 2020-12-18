@@ -5,7 +5,7 @@ $(function(){
       'X-CSRF-TOKEN':$('meta[name="csrf-token"]').attr('content')
     }
   })
-    $('form[name="login"]').submit(function(){
+    $('form[name="login"]').submit(function(event){
         event.preventDefault();
 
         const form = $(this);
@@ -17,7 +17,7 @@ $(function(){
 
           console.log(response);
           if(response.message){
-            alert('ERROR');
+            alert('ERROR:'+ response.message);
           }
 
           if(response.redirect){
