@@ -20,6 +20,8 @@ class AuthController extends Controller
     public function home(){
         return view('admin.dashboard');
     }
+
+    
     
     public function login(Request $request){
         if(in_array('',$request->only('email','password'))){
