@@ -7,9 +7,11 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin.'], fu
 
     Route::get('/', 'AuthController@showLoginForm')->name('login');
     Route::post('/login', 'AuthController@login')->name('login.do');
+    
 
     Route::group(['middleware'=>['auth']], function () {
         Route::get('/home', 'AuthController@home')->name('home');
+
     });
    
 

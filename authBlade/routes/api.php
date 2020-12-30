@@ -5,7 +5,8 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::group(['namespace' => 'Api','as'=>'api.'], function () {
-
+    
+    Route::post('/youtube','ApiController@store')->name('youtube');
 
     Route::post('/auth/login', 'AuthController@login')->name('login');
 

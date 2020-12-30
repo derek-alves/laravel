@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use App\User;
 use Illuminate\Http\Request;
+use Dawson\Youtube\Facades\Youtube;
 
 class ApiController extends Controller
 {
@@ -27,7 +28,14 @@ class ApiController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $video = Youtube::upload($request->file("video")->getPathName(), [
+            'title'       => 'My Video',
+            'description' => 'This video is uploaded through API.',
+            'tags'        => ['api', 'youtube'],
+        ]);
+    
+        return $this->sendResponse($video);
+      
     }
 
     /**
