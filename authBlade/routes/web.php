@@ -11,7 +11,6 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'as' => 'admin.'], fu
 
     Route::group(['middleware'=>['auth']], function () {
         Route::get('/home', 'AuthController@home')->name('home');
-
     });
    
 

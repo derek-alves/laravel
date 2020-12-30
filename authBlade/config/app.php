@@ -166,6 +166,8 @@ return [
          * Package Service Providers...
          */
         Tymon\JWTAuth\Providers\LaravelServiceProvider::class,
+        Dawson\Youtube\YoutubeServiceProvider::class,
+       
 
         /*
          * Application Service Providers...

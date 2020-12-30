@@ -293,10 +293,13 @@
                 }
             ],
             "description": "Upload a video to YouTube with Laravel 5.",
+<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/joedawson/youtube/issues",
                 "source": "https://github.com/joedawson/youtube/tree/6.0.0"
             },
+=======
+>>>>>>> 66567c2013c3aa5d51a2bad28c7f62c6f82b50a9
             "time": "2020-09-28T19:03:44+00:00"
         },
         {
@@ -749,10 +752,13 @@
                 "jwt",
                 "php"
             ],
+<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/firebase/php-jwt/issues",
                 "source": "https://github.com/firebase/php-jwt/tree/master"
             },
+=======
+>>>>>>> 66567c2013c3aa5d51a2bad28c7f62c6f82b50a9
             "time": "2020-03-25T18:49:23+00:00"
         },
         {
@@ -895,10 +901,13 @@
             "keywords": [
                 "google"
             ],
+<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client/issues",
                 "source": "https://github.com/googleapis/google-api-php-client/tree/v2.8.3"
             },
+=======
+>>>>>>> 66567c2013c3aa5d51a2bad28c7f62c6f82b50a9
             "time": "2020-11-17T17:33:35+00:00"
         },
         {
@@ -936,10 +945,13 @@
             "keywords": [
                 "google"
             ],
+<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
                 "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.156"
             },
+=======
+>>>>>>> 66567c2013c3aa5d51a2bad28c7f62c6f82b50a9
             "time": "2020-11-30T20:03:55+00:00"
         },
         {
@@ -992,11 +1004,14 @@
                 "google",
                 "oauth2"
             ],
+<<<<<<< HEAD
             "support": {
                 "docs": "https://googleapis.github.io/google-auth-library-php/master/",
                 "issues": "https://github.com/googleapis/google-auth-library-php/issues",
                 "source": "https://github.com/googleapis/google-auth-library-php/tree/v1.14.3"
             },
+=======
+>>>>>>> 66567c2013c3aa5d51a2bad28c7f62c6f82b50a9
             "time": "2020-10-16T21:33:48+00:00"
         },
         {
@@ -2316,10 +2331,13 @@
                 "x.509",
                 "x509"
             ],
+<<<<<<< HEAD
             "support": {
                 "issues": "https://github.com/phpseclib/phpseclib/issues",
                 "source": "https://github.com/phpseclib/phpseclib/tree/2.0.30"
             },
+=======
+>>>>>>> 66567c2013c3aa5d51a2bad28c7f62c6f82b50a9
             "funding": [
                 {
                     "url": "https://github.com/terrafrost",
@@ -2380,9 +2398,12 @@
                 "psr",
                 "psr-6"
             ],
+<<<<<<< HEAD
             "support": {
                 "source": "https://github.com/php-fig/cache/tree/master"
             },
+=======
+>>>>>>> 66567c2013c3aa5d51a2bad28c7f62c6f82b50a9
             "time": "2016-08-06T20:24:11+00:00"
         },
         {
@@ -8066,5 +8087,5 @@
         "php": "^7.2.5|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "1.1.0"
 }
